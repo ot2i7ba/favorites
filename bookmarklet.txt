@@ -1,0 +1,7 @@
+javascript:(function() {
+  var secret = 'YOUR_SECRET_VALUE_HERE';
+  var url = encodeURIComponent(window.location.href);
+  var title = encodeURIComponent(document.title);
+  var bookmarklet_url = 'https://YOUR_DOMAIN_HERE.COM/favorites.php?secret=' + secret + '&url=' + url + '&title=' + title;
+  window.open(bookmarklet_url, '_blank');
+})();
