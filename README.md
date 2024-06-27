@@ -28,3 +28,9 @@ Example. If you want to watch your favorite YouTube video later, call it up and 
 
 ### What else?
 You could place the sample "**.htaccess**" file where you saved the other files. This prevents direct access to the favorites.json, favorites.lock, intruder.json and blacklist.txt files, for example. Additionally, the set headers are supposed to prevent clickjacking. Well, at least they should. It may be that the .htaccess needs other adjustments depending on how your server has been configured. Don't play around with it if you don't know anything about it. I hope I have not forgotten anything. Github is so exciting and still new to me. =)
+
+## License
+This project is licensed under the **[MIT license](https://github.com/ot2i7ba/favorites/blob/main/LICENSE)**, providing users with flexibility and freedom to use and modify the software according to their needs.
+
+## Disclaimer
+This project is provided without warranties. Users are advised to review the accompanying license for more information on the terms of use and limitations of liability.
